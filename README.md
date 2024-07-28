@@ -1,3 +1,11 @@
-# DATA_255_Deep_Learning
+# Traffic Sign Classifier
+## Instructions
 
-Recognizing traffic signs is essential for safe driving and autonomous navigation. This project aims to create a deep learning system to accurately identify traffic signs using advanced methods. The system uses special convolutional blocks and connections to improve accuracy, especially in difficult conditions like bad weather or unclear signs. It focuses on enhancing driver safety and comfort in Advanced Driver Assistance Systems (ADAS).
+1.	Open the execute_classifier.py file and exit the paths to the path where the Traffic_Sign_Data dataset is stored.
+2.	Execute the main file - python execute_classifier.py and select one of the models to execute. Select an option out of vgg16, customcnn, alexnet, or lenet.
+
+## Files:
+1.	execute_classifier.py – Main file which executes the classifiers.
+2.	data_loading_and_preprocessing.py – Defines the data loading, augmentation and pre-processing methods.
+3.	traffic_sign_classifier.py – Class which defines all the models.
+4.	class_names.py – Defines all the class labels in the dataset.
